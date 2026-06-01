@@ -1,0 +1,28 @@
+# Node modules and build
+node_modules/
+dist/
+build/
+*.tgz
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
